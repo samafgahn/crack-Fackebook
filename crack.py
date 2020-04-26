@@ -3,7 +3,7 @@ import sys
 import mechanize
 import cookielib
 import random
-
+from colorama import *
 
 
 
@@ -60,7 +60,7 @@ def search():
 		
 #welcome 
 def welcome():
-	wel = """
+	wel = Fore.BLUE + """
 
      *******************************
      *     Hi,I' Sam               *
